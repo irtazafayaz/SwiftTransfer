@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>logFormatVersion</key>
+	<integer>11</integer>
+	<key>logs</key>
+	<dict>
+		<key>18B1FC1B-FD50-4C79-86CD-0329FEF12179</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>18B1FC1B-FD50-4C79-86CD-0329FEF12179.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SwiftTransfer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SwiftTransfer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Building workspace SwiftTransfer with scheme SwiftTransfer</string>
+			<key>timeStartedRecording</key>
+			<real>764548845.53606999</real>
+			<key>timeStoppedRecording</key>
+			<real>764548950.674371</real>
+			<key>title</key>
+			<string>Building workspace SwiftTransfer with scheme SwiftTransfer</string>
+			<key>uniqueIdentifier</key>
+			<string>18B1FC1B-FD50-4C79-86CD-0329FEF12179</string>
+		</dict>
+		<key>254A464E-96C4-4D12-A44B-3AB2F77F2683</key>
+		<dict>
+			<key>className</key>
+			<string>IDECommandLineBuildLog</string>
+			<key>documentTypeString</key>
+			<string>&lt;nil&gt;</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.BuildLog</string>
+			<key>fileName</key>
+			<string>254A464E-96C4-4D12-A44B-3AB2F77F2683.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+				<key>totalNumberOfAnalyzerIssues</key>
+				<integer>0</integer>
+				<key>totalNumberOfErrors</key>
+				<integer>0</integer>
+				<key>totalNumberOfTestFailures</key>
+				<integer>0</integer>
+				<key>totalNumberOfWarnings</key>
+				<integer>0</integer>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>SwiftTransfer project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>SwiftTransfer</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Testing workspace SwiftTransfer with scheme SwiftTransfer</string>
+			<key>timeStartedRecording</key>
+			<real>764548950.75722301</real>
+			<key>timeStoppedRecording</key>
+			<real>764548961.625664</real>
+			<key>title</key>
+			<string>Testing workspace SwiftTransfer with scheme SwiftTransfer</string>
+			<key>uniqueIdentifier</key>
+			<string>254A464E-96C4-4D12-A44B-3AB2F77F2683</string>
+		</dict>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+Target 'SwiftTransferUITests' in project 'SwiftTransfer'
+➜ Explicit dependency on target 'SwiftTransfer' in project 'SwiftTransfer'
+Target 'SwiftTransferTests' in project 'SwiftTransfer'
+➜ Explicit dependency on target 'SwiftTransfer' in project 'SwiftTransfer'
+Target 'SwiftTransfer' in project 'SwiftTransfer' (no dependencies)

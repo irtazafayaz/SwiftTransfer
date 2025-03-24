@@ -1,0 +1,40 @@
+name: Pull Request
+
+on:
+  pull_request:
+    branches:
+      - develop
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: macos-15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.11.0
+        with:
+          access_token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: maxim-lobanov/setup-xcode@v2
+        with:
+          xcode-version: "16.0"
+
+      - uses: ruby/setup-ruby@v1
+
+      - name: Install Bundler
+        run: gem install bundler
+
+      - name: Install gems
+        run: bundle install
+
+      - name: Swift Packages Cache
+        uses: actions/cache@v3
+        id: cache
+        with:
+          path: |
+            Build/SourcePackages
+            Build/Build/Products
+          key: ${{ runner.os }}-deps-v2-${{ hashFiles('BILDsolid.xcodeproj/project.xcworkspace/xcshareddata/swiftpm/Package.resolved') }}
+          restore-keys: ${{ runner.os }}-deps-v2-

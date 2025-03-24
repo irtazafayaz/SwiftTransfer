@@ -1,0 +1,38 @@
+{
+  "" : {
+    "diagnostics" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/SwiftTransfer-master.dia",
+    "emit-module-dependencies" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/SwiftTransfer-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/SwiftTransfer-master-emit-module.dia",
+    "swift-dependencies" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/SwiftTransfer-master.swiftdeps"
+  },
+  "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  },
+  "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/SwiftTransfer/ContentView.swift" : {
+    "const-values" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/ContentView.swiftconstvalues",
+    "dependencies" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/ContentView.d",
+    "diagnostics" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/ContentView.dia",
+    "index-unit-output-path" : "/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/ContentView.o",
+    "llvm-bc" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/ContentView.bc",
+    "object" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/ContentView.o",
+    "swift-dependencies" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/ContentView.swiftdeps",
+    "swiftmodule" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/ContentView~partial.swiftmodule"
+  },
+  "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/SwiftTransfer/SwiftTransferApp.swift" : {
+    "const-values" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/SwiftTransferApp.swiftconstvalues",
+    "dependencies" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/SwiftTransferApp.d",
+    "diagnostics" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/SwiftTransferApp.dia",
+    "index-unit-output-path" : "/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/SwiftTransferApp.o",
+    "llvm-bc" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/SwiftTransferApp.bc",
+    "object" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/SwiftTransferApp.o",
+    "swift-dependencies" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/SwiftTransferApp.swiftdeps",
+    "swiftmodule" : "/Users/irtazafiaz/Documents/Practice Repos/SwiftTransfer/Build/Build/Intermediates.noindex/SwiftTransfer.build/Debug-iphonesimulator/SwiftTransfer.build/Objects-normal/arm64/SwiftTransferApp~partial.swiftmodule"
+  }
+}

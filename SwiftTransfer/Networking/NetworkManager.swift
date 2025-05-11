@@ -10,30 +10,21 @@ import Alamofire
 
 actor NetworkManager {
     static let shared = NetworkManager()
-    private init() {}
     
-    
-    func downloadFile(from url: String, progressHandler: @escaping (Double) -> Void) async throws -> URL {
-        let destination: DownloadRequest.Destination = { _, response in
-            let fileManager = FileManager.default
-            let documentsUrl = fileManager.urls(for: .documentDirectory, in: .userDomainMask)[0]
-            let fileUrl = documentsUrl.appendingPathComponent(response.suggestedFilename ?? "downloadedFile")
-            return (fileUrl, [.removePreviousFile, .createIntermediateDirectories])
-        }
+    private var delegate: DownloadService?
+    private var session: URLSession?
 
-        return try await withCheckedThrowingContinuation { continuation in
-            AF.download(url, to: destination)
-                .downloadProgress { progress in
-                    progressHandler(progress.fractionCompleted)
-                }
-                .responseURL { response in
-                    if let fileURL = response.fileURL {
-                        continuation.resume(returning: fileURL)
-                    } else if let error = response.error {
-                        continuation.resume(throwing: error)
-                    }
-                }
-        }
+    func downloadFile(from urlString: String, progressHandler: @escaping (Double) -> Void) async throws -> URL {
+        guard let url = URL(string: urlString) else { throw URLError(.badURL) }
+
+        let delegate = await DownloadService(progressHandler: progressHandler)
+        self.delegate = delegate // retain it
+        let session = URLSession(configuration: .background(withIdentifier: UUID().uuidString),
+                                 delegate: delegate,
+                                 delegateQueue: nil)
+        self.session = session
+        
+        return try await delegate.startDownload(using: session, from: url)
     }
-
 }
+

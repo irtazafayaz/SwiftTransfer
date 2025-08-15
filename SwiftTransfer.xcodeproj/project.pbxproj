@@ -33,9 +33,22 @@
 		D5E753762D91FF24002AFFAB /* SwiftTransferUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTransferUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		10DA42342E4D391C00F054B1 /* Exceptions for "SwiftTransfer" folder in "SwiftTransfer" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D5E7535B2D91FF21002AFFAB /* SwiftTransfer */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D5E7535E2D91FF21002AFFAB /* SwiftTransfer */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				10DA42342E4D391C00F054B1 /* Exceptions for "SwiftTransfer" folder in "SwiftTransfer" target */,
+			);
 			path = SwiftTransfer;
 			sourceTree = "<group>";
 		};
@@ -408,6 +421,7 @@
 				DEVELOPMENT_TEAM = H7J77Z36VS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftTransfer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -437,6 +451,7 @@
 				DEVELOPMENT_TEAM = H7J77Z36VS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SwiftTransfer/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

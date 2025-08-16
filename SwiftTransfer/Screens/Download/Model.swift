@@ -12,6 +12,11 @@ struct DownloadItem: Identifiable {
     let url: URL
     var progress: Double? = nil
     var status: String = "Queued"
-    var errorMessage: String? = nil  // <— show this in UI
+    var errorMessage: String? = nil
+    var localFileURL: URL?  
 }
 
+struct ShareItem: Identifiable, Equatable {
+    let url: URL
+    var id: String { url.absoluteString }
+}

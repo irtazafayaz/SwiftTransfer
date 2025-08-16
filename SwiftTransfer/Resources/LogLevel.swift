@@ -19,9 +19,7 @@ enum LogManager {
     static func w(_ c: LogCat, _ m: @autoclosure () -> String) { log(.warn,  c, m()) }
     static func e(_ c: LogCat, _ m: @autoclosure () -> String) { log(.error, c, m()) }
 
-    private static func log(_ lvl: LogLevel, _ cat: LogCat, _ msg: @autoclosure () -> String) {
-        NSLog("IRTAZA")
-        
+    private static func log(_ lvl: LogLevel, _ cat: LogCat, _ msg: @autoclosure () -> String) {        
         guard lvl.rawValue >= minLevel.rawValue else { return }
         let ts = ISO8601DateFormatter().string(from: Date())
         let thr = Thread.isMainThread ? "main" : "bg"
